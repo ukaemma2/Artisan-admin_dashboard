@@ -1,31 +1,33 @@
-# Medical Electronic Record System (MERS)
+# ARTIZAN DASHBOARD (AD)
 
 ## Project Pitch
 
-[View the Google Slides presentation](https://docs.google.com/presentation/d/1GeLxS2Vfk7s-rfQg5BZwmAa7598IFwAhgDJUZYj7aTU/edit?usp=sharing)
+[View the Google Slides presentation](https://docs.google.com/presentation/d/1GeLxS2Vfk7s-rfQg5BZwmAa7598IFwAhgDJUZYj7aTU/edit#slide=id.g2f144d15366_0_182)
 
-Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch](https://img.youtube.com/vi/MwmCaMgZG_o/0.jpg)](https://youtu.be/MwmCaMgZG_o?si=fqDKFiTXT4xScK1e)
+Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch]()]()
 
 ### Name of the Project
 **Medical Electronic Record System (MERS)**
 
 ### List of Team Members
 - Harvey Kisiangani
-- Emmanuel Ukah
+- Emmanuel Ukah Ogbonna
 - Leon Noel Irumva
 - Jean Damascene NGABOYIMANA
 
 ### Description of the Project
-**Objective:** To create a comprehensive Medical Electronic Record System (MERS) that will enable healthcare providers to efficiently manage patient information, improve data accuracy, and enhance patient care.
+**Objective:** AD is a comprehensive web application designed to manage and collect Artizans and users’ records.
+The AD facilitates the seamless interaction between Artizan services,user services and the Admin.
+Admin can create, update,read, and delete either an Artizan or user record.
 
-**Features:**
-- Patient Registration and Profile Management
-- Appointment Scheduling
-- Medical History Recording
-- Prescription and Medication Tracking
-- Lab Test Result Integration
-- Billing and Invoicing
-- Reporting and Analytics
+
+**Technologies:**
+- Frontend: React.js for user interfaces
+- Backend: Node.js with Express.js for API development
+- Database: MongoDB for storing patient records and test results
+- Authentication: JWT for secure user authentication
+- Deployment: Docker for containerization and deployment
+- Testing: Jest for unit and integration testing
 
 ### Learning Objectives
 **Technical Skills:**
@@ -77,7 +79,7 @@ Include visual representations of the key user interfaces (e.g., patient registr
 ### Video Recording
 A video recording of one or more team members presenting the pitch using the Google Slide presentation will be attached.
 
-[![Watch the video](https://img.youtube.com/vi/MwmCaMgZG_o/0.jpg)](https://youtu.be/MwmCaMgZG_o?si=fqDKFiTXT4xScK1e)
+[![Watch the video]()]()
 
 ---
 
