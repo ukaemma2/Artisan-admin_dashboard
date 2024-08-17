@@ -12,7 +12,14 @@ const dashboardRoutes = [
   },
   {
     path: "/user-profile",
-    name: "User Profile",
+    name: "Users",
+    icon: Person,
+
+    layout: "/admin",
+  },
+  {
+    path: "/artizan",
+    name: "Artizan",
     icon: Person,
 
     layout: "/admin",
