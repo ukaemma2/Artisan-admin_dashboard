@@ -5,12 +5,12 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
-import imagine1 from "assets/img/sidebar-1.jpg";
-import imagine2 from "assets/img/sidebar-2.jpg";
-import imagine3 from "assets/img/sidebar-3.jpg";
-import imagine4 from "assets/img/sidebar-4.jpg";
+// import imagine1 from "assets/img/sidebar-1.jpg";
+// import imagine2 from "assets/img/sidebar-2.jpg";
+// import imagine3 from "assets/img/sidebar-3.jpg";
+// import imagine4 from "assets/img/sidebar-4.jpg";
 
-import Button from "components/CustomButtons/Button.js";
+// import Button from "components/CustomButtons/Button.js";
 
 export default function FixedPlugin(props) {
   const [classes, setClasses] = React.useState("dropdown show");
@@ -26,10 +26,10 @@ export default function FixedPlugin(props) {
       })}
     >
       <div id="fixedPluginClasses" className={props.fixedClasses}>
-        <div onClick={handleClick}>
+        {/* <div onClick={handleClick}>
           <i className="fa fa-cog fa-2x" />
-        </div>
-        <ul className="dropdown-menu">
+        </div> */}
+        {/* <ul className="dropdown-menu">
           <li className="header-title">SIDEBAR FILTERS</li>
           <li className="adjustments-line">
             <a className="switch-trigger">
@@ -184,7 +184,7 @@ export default function FixedPlugin(props) {
             </Button>
           </li>
           <li className="adjustments-line" />
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
