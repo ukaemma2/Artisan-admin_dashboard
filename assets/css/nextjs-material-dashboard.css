@@ -112,7 +112,7 @@ h6 {
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #f9ebfd;
   color: #3c4858;
 }
 
@@ -138,10 +138,10 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus { 
   color: #89229b;
   text-decoration: none;
-}
+} 
 
 legend {
   border-bottom: 0;
@@ -251,7 +251,10 @@ footer ul li a:hover {
   border-radius: 8px 0 0 8px;
   text-align: center;
   top: 120px;
-  .badge-primary-background-color: #9c27b0;
+  badge-primary-background-color: #9c27b0;
+}
+.MuiGrid-container {
+  display: block
 }
 
 .fixed-plugin .SocialMediaShareButton,
@@ -546,4 +549,10 @@ footer ul li a:hover {
   z-index: 9999;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  text-align: center;
+  color: rgb(255, 5, 5);
+
 }

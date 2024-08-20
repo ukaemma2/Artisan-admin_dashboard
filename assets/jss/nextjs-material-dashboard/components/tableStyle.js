@@ -46,6 +46,8 @@ const tableStyle = (theme) => ({
       fontSize: "1em",
     },
   },
+
+
   tableCell: {
     ...defaultFont,
     lineHeight: "1.42857143",

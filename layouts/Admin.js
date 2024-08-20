@@ -16,7 +16,7 @@ import routes from "routes.js";
 import styles from "assets/jss/nextjs-material-dashboard/layouts/adminStyle.js";
 
 import bgImage from "assets/img/sidebar-2.jpg";
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/favicon.svg";
 
 let ps;
 
@@ -50,7 +50,7 @@ export default function Admin({ children, ...rest }) {
     setMobileOpen(!mobileOpen);
   };
   const getRoute = () => {
-    return router.pathname !== "/admin/maps";
+    return router.pathname !== "/";
   };
   const resizeFunction = () => {
     if (window.innerWidth >= 960) {
@@ -79,7 +79,7 @@ export default function Admin({ children, ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"Admin"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}

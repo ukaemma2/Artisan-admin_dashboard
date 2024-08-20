@@ -49,7 +49,7 @@ const typographyStyle = {
     color: warningColor[0],
   },
   dangerText: {
-    color: dangerColor[0],
+    color: dangerColor[4],
   },
 };
 

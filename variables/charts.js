@@ -84,7 +84,7 @@ const emailsSubscriptionChart = {
     },
     low: 0,
     high: 1000,
-    chartPadding: {
+    chartPadding:{
       top: 0,
       right: 5,
       bottom: 0,

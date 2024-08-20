@@ -3,6 +3,9 @@ import {
   primaryColor,
   dangerColor,
   grayColor,
+  hexToRgb,
+  whiteColor,
+  blackColor,
 } from "assets/jss/nextjs-material-dashboard.js";
 import tooltipStyle from "assets/jss/nextjs-material-dashboard/tooltipStyle.js";
 import checkboxAdnRadioStyle from "assets/jss/nextjs-material-dashboard/checkboxAdnRadioStyle.js";
@@ -16,6 +19,10 @@ const tasksStyle = {
   tableRow: {
     position: "relative",
     borderBottom: "1px solid " + grayColor[5],
+  },
+  data: {
+    borderBottom: '1px solid purple',
+    cursor: 'pointer'
   },
   tableActions: {
     display: "flex",
@@ -38,6 +45,17 @@ const tasksStyle = {
     width: "27px",
     height: "27px",
     padding: "0",
+  },
+  data: {
+    cursor: 'pointer',
+    boxShadow:
+      "0 12px 20px -10px rgba(" +
+      hexToRgb(whiteColor) +
+      ", 0.28), 0 4px 20px 0px rgba(" +
+      hexToRgb(blackColor) +
+      ", 0.12), 0 7px 8px -5px rgba(" +
+      hexToRgb(whiteColor) +
+      ", 0.2)",
   },
   tableActionButtonIcon: {
     width: "17px",

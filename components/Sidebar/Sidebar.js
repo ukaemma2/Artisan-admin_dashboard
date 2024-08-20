@@ -14,8 +14,6 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Icon from "@material-ui/core/Icon";
 // core components
 import AdminNavbarLinks from "components/Navbars/AdminNavbarLinks.js";
-import RTLNavbarLinks from "components/Navbars/RTLNavbarLinks.js";
-
 import styles from "assets/jss/nextjs-material-dashboard/components/sidebarStyle.js";
 
 export default function Sidebar(props) {
@@ -34,7 +32,7 @@ export default function Sidebar(props) {
       {routes.map((prop, key) => {
         var activePro = " ";
         var listItemClasses;
-        if (prop.path === "/upgrade-to-pro") {
+        if (prop.path === "/") {
           activePro = classes.activePro + " ";
           listItemClasses = classNames({
             [" " + classes[color]]: true,
@@ -47,7 +45,7 @@ export default function Sidebar(props) {
         const whiteFontClasses = classNames({
           [" " + classes.whiteFont]:
             activeRoute(prop.layout + prop.path) ||
-            prop.path === "/upgrade-to-pro",
+            prop.path === "/",
         });
         return (
           <Link href={prop.layout + prop.path} key={key}>
@@ -85,11 +83,11 @@ export default function Sidebar(props) {
   var brand = (
     <div className={classes.logo}>
       <a
-        
+        href="/"
+        onClick={(e) => e.preventDefault()}
         className={classNames(classes.logoLink, {
           [classes.logoLinkRTL]: props.rtlActive,
         })}
-        target="_blank"
       >
         <div className={classes.logoImage}>
           <img src={logo} alt="logo" className={classes.img} />
@@ -117,7 +115,7 @@ export default function Sidebar(props) {
         >
           {brand}
           <div className={classes.sidebarWrapper}>
-            {props.rtlActive ? <RTLNavbarLinks /> : <AdminNavbarLinks />}
+            {props.rtlActive ? <AdminNavbarLinks /> : null}
             {links}
           </div>
           {image !== undefined ? (
@@ -137,7 +135,7 @@ export default function Sidebar(props) {
             paper: classNames(classes.drawerPaper, {
               [classes.drawerPaperRTL]: props.rtlActive,
             }),
-          }}
+          }} 
         >
           {brand}
           <div className={classes.sidebarWrapper}>{links}</div>

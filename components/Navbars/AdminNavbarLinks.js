@@ -13,21 +13,24 @@ import Divider from "@material-ui/core/Divider";
 // @material-ui/icons
 import Person from "@material-ui/icons/Person";
 import Notifications from "@material-ui/icons/Notifications";
-import Dashboard from "@material-ui/icons/Dashboard";
-import Search from "@material-ui/icons/Search";
 // core components
-import CustomInput from "components/CustomInput/CustomInput.js";
+
 import Button from "components/CustomButtons/Button.js";
 import useWindowSize from "components/Hooks/useWindowSize.js";
-
+import Link from "next/link";
+import { removeUserSession } from "../../utility/apihelp";
+import { useRouter } from "next/router";
+import cookies from "cookie";
 import styles from "assets/jss/nextjs-material-dashboard/components/headerLinksStyle.js";
 
 export default function AdminNavbarLinks() {
   const size = useWindowSize();
   const useStyles = makeStyles(styles);
   const classes = useStyles();
+  const router = useRouter();
   const [openNotification, setOpenNotification] = React.useState(null);
   const [openProfile, setOpenProfile] = React.useState(null);
+
   const handleClickNotification = (event) => {
     if (openNotification && openNotification.contains(event.target)) {
       setOpenNotification(null);
@@ -48,36 +51,12 @@ export default function AdminNavbarLinks() {
   const handleCloseProfile = () => {
     setOpenProfile(null);
   };
+  const handleLogOut = () => {
+    window.document.cookie = "user=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    return setTimeout(() => router.push("/admin/login"), 2000);
+  };
   return (
     <div>
-      <div className={classes.searchWrapper}>
-        <CustomInput
-          formControlProps={{
-            className: classes.margin + " " + classes.search,
-          }}
-          inputProps={{
-            placeholder: "Search",
-            inputProps: {
-              "aria-label": "Search",
-            },
-          }}
-        />
-        <Button color="white" aria-label="edit" justIcon round>
-          <Search />
-        </Button>
-      </div>
-      <Button
-        color={size.width > 959 ? "transparent" : "white"}
-        justIcon={size.width > 959}
-        simple={!(size.width > 959)}
-        aria-label="Dashboard"
-        className={classes.buttonLink}
-      >
-        <Dashboard className={classes.icons} />
-        <Hidden mdUp implementation="css">
-          <p className={classes.linkText}>Dashboard</p>
-        </Hidden>
-      </Button>
       <div className={classes.manager}>
         <Button
           color={size.width > 959 ? "transparent" : "white"}
@@ -194,21 +173,29 @@ export default function AdminNavbarLinks() {
               <Paper>
                 <ClickAwayListener onClickAway={handleCloseProfile}>
                   <MenuList role="menu">
-                    <MenuItem
-                      onClick={handleCloseProfile}
-                      className={classes.dropdownItem}
-                    >
-                      Profile
-                    </MenuItem>
-                    <MenuItem
-                      onClick={handleCloseProfile}
-                      className={classes.dropdownItem}
-                    >
-                      Settings
-                    </MenuItem>
+                    <Link href="/admin/users">
+                      <MenuItem className={classes.dropdownItem}>
+                        Users
+                      </MenuItem>
+                    </Link>
+                    <Link href="/admin/categories">
+                      <MenuItem className={classes.dropdownItem}>
+                        Categories
+                      </MenuItem>
+                    </Link>
+                    <Link href="/admin/service-request">
+                      <MenuItem className={classes.dropdownItem}>
+                        Service Request
+                      </MenuItem>
+                    </Link>
+                    <Link href="/admin/artizans">
+                      <MenuItem className={classes.dropdownItem}>
+                        Artizans
+                      </MenuItem>
+                    </Link>
                     <Divider light />
                     <MenuItem
-                      onClick={handleCloseProfile}
+                      onClick={handleLogOut}
                       className={classes.dropdownItem}
                     >
                       Logout
