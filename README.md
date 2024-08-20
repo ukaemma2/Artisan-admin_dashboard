@@ -10,7 +10,7 @@ Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch]()]()
 **Medical Electronic Record System (MERS)**
 
 ### List of Team Members
-- Harvey Kisiangani
+- Harvey Kisiangani - harveykisiangani@gmail.com
 - Emmanuel Ukah Ogbonna
 - Leon Noel Irumva
 - Jean Damascene NGABOYIMANA
