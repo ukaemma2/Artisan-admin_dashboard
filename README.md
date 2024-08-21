@@ -4,7 +4,7 @@
 
 [View the Google Slides presentation](https://docs.google.com/presentation/d/1GeLxS2Vfk7s-rfQg5BZwmAa7598IFwAhgDJUZYj7aTU/edit?usp=sharing)
 
-Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch](https://www.youtube.com/watch?v=WGPyQCmudV4/0.jpg)](https://youtu.be/WGPyQCmudV4?si=F_nnbnHlEhff3Puy)
+Watch Pitch Video [![Artizan Dashboard Webstack - Portfolio Project - Pitch](https://img.youtube.com/vi/WGPyQCmudV4/maxresdefault.jpg)](https://youtu.be/WGPyQCmudV4?si=_ZBLuJryN9zq41v5)
 
 ### Name of the Project
 **ARTIZAN DASHBOARD (AD)**
@@ -79,7 +79,7 @@ Include visual representations of the key user interfaces (e.g., patient registr
 ### Video Recording
 A video recording of one or more team members presenting the pitch using the Google Slide presentation will be attached.
 
-[![Watch the video](https://www.youtube.com/watch?v=WGPyQCmudV4/0.jpg)](https://www.youtube.com/watch?v=WGPyQCmudV4)
+[![Watch the video](https://img.youtube.com/vi/WGPyQCmudV4/maxresdefault.jpg)](https://youtu.be/WGPyQCmudV4?si=_ZBLuJryN9zq41v5)
 
 ---
 
