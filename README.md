@@ -7,13 +7,13 @@
 Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch](https://www.youtube.com/watch?v=WGPyQCmudV4)](https://www.youtube.com/watch?v=WGPyQCmudV4)
 
 ### Name of the Project
-**Medical Electronic Record System (MERS)**
+**ARTIZAN DASHBOARD (AD)**
 
 ### List of Team Members
-- Harvey Kisiangani - harveykisiangani@gmail.com
-- Emmanuel Ukah Ogbonna
-- Leon Noel Irumva
-- Jean Damascene NGABOYIMANA
+- Harvey Kisiangani <harveykisiangani@gmail.com>
+- Emmanuel Ukah Ogbonna <ukaemmanuel2000@gmail.com>
+- Leon Noel Irumva <irumvaleon@gmail.com>
+- Jean Damascene NGABOYIMANA <jeandamngaboyimana@gmail.com>
 
 ### Description of the Project
 **Objective:** AD is a comprehensive web application designed to manage and collect Artizans and users’ records.
