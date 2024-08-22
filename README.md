@@ -23,11 +23,11 @@ Admin can create, update,read, and delete either an Artizan or user record.
 
 **Technologies:**
 - Frontend: React.js for user interfaces
-- Backend: Node.js with Express.js for API development
-- Database: MongoDB for storing patient records and test results
+- Backend: Node.js with Express.js for API development && flask api implementation
+- Database: MongoDB for storing patient records and test results && sql
 - Authentication: JWT for secure user authentication
 - Deployment: Docker for containerization and deployment
-- Testing: Jest for unit and integration testing
+- Testing: Jest for unit and integration testing 
 
 ### Learning Objectives
 **Technical Skills:**
@@ -51,6 +51,7 @@ Admin can create, update,read, and delete either an Artizan or user record.
 - Node.js
 - Express.js
 - MongoDB
+-flask
 
 **Tools:**
 - Git & GitHub
