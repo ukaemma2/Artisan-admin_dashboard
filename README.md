@@ -2,18 +2,18 @@
 
 ## Project Pitch
 
-[View the Google Slides presentation](https://docs.google.com/presentation/d/1GeLxS2Vfk7s-rfQg5BZwmAa7598IFwAhgDJUZYj7aTU/edit#slide=id.g2f144d15366_0_182)
+[View the Google Slides presentation](https://docs.google.com/presentation/d/1GeLxS2Vfk7s-rfQg5BZwmAa7598IFwAhgDJUZYj7aTU/edit?usp=sharing)
 
-Watch Pitch Video [![Merec System Webstack - Portfolio Project - Pitch]()]()
+Watch Pitch Video [![Artizan Dashboard Webstack - Portfolio Project - Pitch](https://img.youtube.com/vi/WGPyQCmudV4/maxresdefault.jpg)](https://youtu.be/WGPyQCmudV4?si=_ZBLuJryN9zq41v5)
 
 ### Name of the Project
-**Medical Electronic Record System (MERS)**
+**ARTIZAN DASHBOARD (AD)**
 
 ### List of Team Members
-- Harvey Kisiangani - harveykisiangani@gmail.com
-- Emmanuel Ukah Ogbonna
-- Leon Noel Irumva
-- Jean Damascene NGABOYIMANA
+- Harvey Kisiangani <harveykisiangani@gmail.com>
+- Emmanuel Ukah Ogbonna <ukaemmanuel2000@gmail.com>
+- Leon Noel Irumva <irumvaleon@gmail.com>
+- Jean Damascene NGABOYIMANA <jeandamngaboyimana@gmail.com>
 
 ### Description of the Project
 **Objective:** AD is a comprehensive web application designed to manage and collect Artizans and users’ records.
@@ -79,7 +79,7 @@ Include visual representations of the key user interfaces (e.g., patient registr
 ### Video Recording
 A video recording of one or more team members presenting the pitch using the Google Slide presentation will be attached.
 
-[![Watch the video]()]()
+[![Watch the video](https://img.youtube.com/vi/WGPyQCmudV4/maxresdefault.jpg)](https://youtu.be/WGPyQCmudV4?si=_ZBLuJryN9zq41v5)
 
 ---
 
