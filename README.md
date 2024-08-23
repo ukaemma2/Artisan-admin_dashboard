@@ -10,10 +10,10 @@ Watch Pitch Video [![Artizan Dashboard Webstack - Portfolio Project - Pitch](htt
 **ARTIZAN DASHBOARD (AD)**
 
 ### List of Team Members
-- Harvey Kisiangani <harveykisiangani@gmail.com>
-- Emmanuel Ukah Ogbonna <ukaemmanuel2000@gmail.com>
-- Leon Noel Irumva <irumvaleon@gmail.com>
-- Jean Damascene NGABOYIMANA <jeandamngaboyimana@gmail.com>
+- Harvey Kisiangani <harveykisiangani@gmail.com> - Back-End
+- Emmanuel Ukah Ogbonna <ukaemmanuel2000@gmail.com> - Front-End
+- Leon Noel Irumva <irumvaleon@gmail.com> Back-End
+- Jean Damascene NGABOYIMANA <jeandamngaboyimana@gmail.com> Front-End
 
 ### Description of the Project
 **Objective:** AD is a comprehensive web application designed to manage and collect Artizans and users’ records.
